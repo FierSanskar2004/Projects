@@ -1,3 +1,7 @@
+#Author: Sanskar Shrivas
+#Date: 5 April,2023
+#Time: 17:22:35 
+
 #This is a code for regression analysis
 import math
 x=list()
