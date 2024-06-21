@@ -8,11 +8,13 @@ x=list()
 y=list()
 n=int(input("Enter the number of data :"))
 
+#reads x
 print(" Values of x :\n")
 for i in range(0, n):
     ele = float(input("Read the x value :"))
     x.append(ele)
 
+#reads y
 print(" Values of y :\n")
 for j in range(0, n):
     lel = float(input("Read the y value :"))
@@ -21,6 +23,7 @@ for j in range(0, n):
 print("\nx : ",x)
 print("y : ",y)
 
+#find avg
 sumx=0
 for i in range(0,n):
     sumx=sumx+x[i]
